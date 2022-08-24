@@ -43,10 +43,10 @@ common deps
     , filepattern           ^>=0.1.2
     , fuzzy-dates           ^>=0.1.1.2
     , hourglass             ^>=0.2.12
-    , hpack                 ^>=0.34.5
+    , hpack                 >=0.34.5   && < 0.36
     , HsYAML                ^>=0.2
-    , http-client           ^>=0.6.4.1
-    , http-client-tls       ^>=0.3.5.3
+    , http-client           >=0.6.4.1  && < 0.8
+    , http-client-tls       >=0.3.5.3  && < 0.5
     , optparse-applicative  >=0.15.1.0
     , process               >=1.6.9.0
     , safe                  ^>=0.3.19
